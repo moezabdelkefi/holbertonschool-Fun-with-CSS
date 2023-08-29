@@ -1,0 +1,76 @@
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-open {
+    display: none;
+}
+
+.menu-open-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    background-color: #b20505;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+#menu-open:checked + .menu-open-button .menu-line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#menu-open:checked + .menu-open-button .menu-line-2 {
+    opacity: 0;
+}
+
+#menu-open:checked + .menu-open-button .menu-line-3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menu-item {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#menu-open:checked ~ .menu-item {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #b20505;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#menu-open:checked ~ .menu-item:hover {
+    background-color: #fffcfc;
+}
+
+#menu-open:checked ~ .menu-item:hover {
+    color: #b20505;
+    border: 2px solid #b20505;
+}
+
+.menu-open-button:hover {
+    transform: scale(1.1);
+}
