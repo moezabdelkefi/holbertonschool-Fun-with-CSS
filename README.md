@@ -1,4 +1,6 @@
 <h1 align="center">holbertonschool-Fun-with-CSS</h1>
+![Screenshot 2023-11-02 121504](https://github.com/moezabdelkefi/holbertonschool-Fun-with-CSS/assets/113900578/60345d95-68bd-4425-9c25-73e16bdd81b1)
+
 
 ## About the Developer:
 
