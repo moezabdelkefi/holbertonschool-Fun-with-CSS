@@ -7,7 +7,7 @@
 ## About the Developer:
 
 I am moez abdelkefi, a passionate web developer and a Holberton School student. You can learn more about me by visiting my profiles on:
-[linkedin]: https://www.linkedin.com/in/moez-abdelkefi/
+[LinkedIn](https://www.linkedin.com/in/moez-abdelkefi/)
 
 ## Project Description:
 
